@@ -8,8 +8,6 @@ const app = express();
 app.use(cors());
 const port = 3000;
 
-app.use(express.static(path.join(__dirname, '/mnt/d/Celine/Tp_web/webshop/src/assets/')));
-
 const connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',

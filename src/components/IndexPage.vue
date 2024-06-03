@@ -75,7 +75,6 @@ export default {
           desc_product: {},
           total_price: 0,
           nbr_product: 0,
-          img_base_path: '/assets/'
       }
   },
   created() {
